@@ -18,7 +18,6 @@ function LogifocusSensor(sensorInfo, options) {
 
   self.dataType = LogifocusSensor.properties.dataTypes[self.model][0];
   self.seq = self.id.split('-')[3];
-  logger.debug('boh: seq:', self.seq, self.id);
 }
 
 LogifocusSensor.properties = {
